@@ -1,6 +1,6 @@
-# dsh-langpack-demo · DSH 语言包发布示例（四合一仓库）
+# dsh-langpack-demo · DSH 语言包发布示例（多合一仓库）
 
-> Language packs for [dsh-LexiForge](https://github.com/HCY7757/dsh-lexiforge) — a four-in-one repository: **one repo, four installable language packs**.
+> Language packs for [dsh-LexiForge](https://github.com/HCY7757/dsh-lexiforge) — a multi-pack repository: **one repo, four installable language packs**.
 > 一次上传、四个语言包、逐个识别安装的官方示例。
 
 ## 这是什么 / What is this
@@ -16,7 +16,7 @@ DSH（DeepSeek Harness）的 [LexiForge 语言模组插件](https://github.com/H
 
 ## 如何被识别成 4 个包 / How the 4 packs are discovered
 
-仓库根目录的 `langpacks.json`（本仓库自带，勿删）是四合一索引：
+仓库根目录的 `langpacks.json`（本仓库自带，勿删）是多合一索引：
 
 ```json
 {
@@ -62,7 +62,7 @@ lexiforge <数据目录> on
 
 ```
 dsh-langpack-demo/
-├── langpacks.json            ← 四合一索引（识别为 4 个包的开关）
+├── langpacks.json            ← 多合一索引（识别为 4 个包的开关）
 ├── demo-a-wenyan.zip         ← ① 文言风
 ├── demo-b-huoxing.zip        ← ② 重度火星文（复合）
 ├── demo-a-rikka.zip          ← ③ 中二病·六花
