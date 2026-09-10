@@ -1,11 +1,11 @@
 # dsh-langpack-demo · DSH 语言包发布示例（四合一仓库）
 
-> Language packs for [dsh-LexiForge](https://github.com/dsh-lexiforge/dsh-lexiforge) — a four-in-one repository: **one repo, four installable language packs**.
+> Language packs for [dsh-LexiForge](https://github.com/HCY7757/dsh-lexiforge) — a four-in-one repository: **one repo, four installable language packs**.
 > 一次上传、四个语言包、逐个识别安装的官方示例。
 
 ## 这是什么 / What is this
 
-DSH（DeepSeek Harness）的 [LexiForge 语言模组插件](https://github.com/dsh-lexiforge/dsh-lexiforge) 支持从 GitHub 安装「语言包」。本仓库示范如何用一个仓库同时发布 **4 个语言包**：
+DSH（DeepSeek Harness）的 [LexiForge 语言模组插件](https://github.com/HCY7757/dsh-lexiforge) 支持从 GitHub 安装「语言包」。本仓库示范如何用一个仓库同时发布 **4 个语言包**：
 
 | Pack ID | 名称 | 模式 | 效果 |
 |---|---|---|---|
@@ -48,10 +48,10 @@ DSH（DeepSeek Harness）的 [LexiForge 语言模组插件](https://github.com/d
 lexiforge <数据目录> disclaimer
 
 # 安装指定包（四选一）
-lexiforge <数据目录> market-install <owner>/dsh-langpack-demo demo-a-wenyan --accept-risk
-lexiforge <数据目录> market-install <owner>/dsh-langpack-demo demo-b-huoxing --accept-risk
-lexiforge <数据目录> market-install <owner>/dsh-langpack-demo demo-a-rikka --accept-risk
-lexiforge <数据目录> market-install <owner>/dsh-langpack-demo demo-a-proofread --accept-risk
+lexiforge <数据目录> market-install HCY7757/dsh-langpack-demo demo-a-wenyan --accept-risk
+lexiforge <数据目录> market-install HCY7757/dsh-langpack-demo demo-b-huoxing --accept-risk
+lexiforge <数据目录> market-install HCY7757/dsh-langpack-demo demo-a-rikka --accept-risk
+lexiforge <数据目录> market-install HCY7757/dsh-langpack-demo demo-a-proofread --accept-risk
 
 # 启用并开启全局开关
 lexiforge <数据目录> enable demo-a-wenyan
