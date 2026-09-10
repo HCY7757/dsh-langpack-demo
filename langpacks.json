@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "demo-a-wenyan",
+      "name": "文言风改写",
+      "version": "1.0.0",
+      "author": "LexiForge Demo",
+      "mode": "A",
+      "description": "把白话回复改写为文言文风格（模式 A，一次 LLM 改写）",
+      "file": "demo-a-wenyan.zip"
+    },
+    {
+      "id": "demo-b-huoxing",
+      "name": "重度火星文（复合）",
+      "version": "1.2.0",
+      "author": "LexiForge Demo",
+      "mode": "composite",
+      "description": "复合模式 B→A→C：检索字形映射注入 → 六技法整段改写 → 混排符号保险层",
+      "file": "demo-b-huoxing.zip"
+    },
+    {
+      "id": "demo-a-rikka",
+      "name": "中二病·小鸟游六花",
+      "version": "1.0.0",
+      "author": "LexiForge Demo",
+      "mode": "A",
+      "description": "把回复转成六花的语气与说话方式（邪王真眼/契约者/招牌咒文，模式 A）",
+      "file": "demo-a-rikka.zip"
+    },
+    {
+      "id": "demo-a-proofread",
+      "name": "输出复查·纠错",
+      "version": "1.0.0",
+      "author": "LexiForge Demo",
+      "mode": "A",
+      "description": "对回复做独立二读校对：无错逐字原样，只修明确错误（模式 A）",
+      "file": "demo-a-proofread.zip"
+    }
+  ]
+}
